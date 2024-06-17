@@ -24,6 +24,17 @@ int main() {
 		j++;
 	}
 	cout << "giai thua " << so << "!=" << gt;
+
+	cout << "\nSUDUNGDOWHIlE\n";
+	gt = 1;
+	int k = 1;
+	do
+	{
+		gt *= k;
+		k++;
+	}
+	while(k <= so);
+	cout << "giai thua " << so << "!=" << gt;
 	return 0;
 
 }
